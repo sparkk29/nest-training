@@ -9,4 +9,8 @@ export class AppService {
   testing(): any {
     return { text: 'Hello test world!' };
   }
+
+  testing2(): any {
+    return { text: 'Hello test world!' };
+  }
 }
