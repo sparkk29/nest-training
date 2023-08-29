@@ -19,4 +19,9 @@ export class AppController {
   newTest(): object {
     return this.appService.testing();
   }
+
+  @Post("newtest")
+  newTest(): object {
+    return this.appService.testing();
+  }
 }
